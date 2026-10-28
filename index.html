@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de presentación personal y perfil profesional">
+  <title>Mi Presentación Personal | Perfil & CV</title>
+
+  <!-- Fuente de Google Fonts para diseño moderno -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#cv">CV & Trayectoria</a></li>
+        <li><a href="#hobbies">Hobbies & Intereses</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Hero / Portada -->
+  <header class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <span class="badge">👋 ¡Hola, bienvenido/a!</span>
+        <!-- EDITAR AQUÍ: Tu Nombre y Apellido -->
+        <h1 class="hero-title">Soy <span class="gradient-text">Gastón</span></h1>
+        <!-- EDITAR AQUÍ: Tu Rol o Título -->
+        <p class="hero-subtitle">Estudiante de Ingeniería en Sistemas / Desarrollador de Software</p>
+        <p class="hero-description">
+          <!-- EDITAR AQUÍ: Una breve frase de introducción -->
+          Apasionado por la tecnología, el desarrollo web y la arquitectura de software. En constante aprendizaje y
+          creando proyectos.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Contáctame</a>
+          <a href="#cv" class="btn btn-secondary">Ver mi CV</a>
+        </div>
+      </div>
+
+
+  </header>
+
+  <main>
+    <!-- Sección Sobre Mí -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <h2 class="section-title">Sobre Mí</h2>
+        <p class="section-subtitle">Conoce un poco más acerca de mi historia y objetivos</p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>¿Quién soy?</h3>
+            <!-- EDITAR AQUÍ: Tu biografía o descripción personal -->
+            <p>
+              Actualmente curso el 4to año de la carrera universitaria con especial interés en arquitectura web,
+              desarrollo backend y frontend. Me gusta resolver problemas mediante código limpio y soluciones escalables.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Mis Objetivos</h3>
+            <!-- EDITAR AQUÍ: Tus metas profesionales o académicas -->
+            <p>
+              Continuar perfeccionando mis habilidades en diseño de sistemas distribuidos, adquirir experiencia práctica
+              en proyectos reales y colaborar en equipos multidisciplinarios.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Datos Rápidos</h3>
+            <ul class="quick-facts">
+              <!-- EDITAR AQUÍ: Datos clave -->
+              <li><strong>📍 Ubicación:</strong> Buenos Aires, Argentina</li>
+              <li><strong>🎓 Nivel:</strong> Universitario (4to año)</li>
+              <li><strong>💼 Estado actual:</strong> Disponible para proyectos</li>
+              <li><strong>🌐 Idiomas:</strong> Español (Nativo), Inglés (Intermedio)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección CV y Trayectoria -->
+    <section class="section section-dark" id="cv">
+      <div class="container">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <p class="section-subtitle">Resumen de mi educación, habilidades y trayectoria</p>
+
+        <div class="cv-layout">
+          <!-- Columna: Educación y Experiencia -->
+          <div class="timeline-column">
+            <h3 class="column-title">🎓 Educación & Experiencia</h3>
+
+            <div class="timeline">
+              <!-- Item 1 -->
+              <div class="timeline-item">
+                <span class="timeline-date">2021 - Actualidad</span>
+                <h4>Carrera Universitaria</h4>
+                <p class="timeline-institution">Facultad / Universidad</p>
+                <p class="timeline-text">
+                  <!-- EDITAR AQUÍ -->
+                  Cursando 4to año. Materias destacadas: Arquitectura Web, Base de Datos, Redes y Sistemas Distribuidos.
+                </p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <span class="timeline-date">2023 - Presente</span>
+                <h4>Proyectos Personales & Cursos</h4>
+                <p class="timeline-institution">Autodidacta / Bootcamps</p>
+                <p class="timeline-text">
+                  <!-- EDITAR AQUÍ -->
+                  Desarrollo de proyectos fullstack, consumo de APIs REST, prácticas de servidores web y buenas
+                  prácticas de desarrollo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna: Habilidades Técnicas -->
+          <div class="skills-column">
+            <h3 class="column-title">⚡ Habilidades & Tecnologías</h3>
+
+            <div class="skills-group">
+              <h4>Desarrollo Web</h4>
+              <div class="skill-tags">
+                <span class="tag">HTML5 Semántico</span>
+                <span class="tag">CSS3 / Flexbox / Grid</span>
+              </div>
+            </div>
+
+            <div class="skills-group">
+              <h4>Herramientas & Servidores</h4>
+              <div class="skill-tags">
+                <span class="tag">Git & GitHub</span>
+                <span class="tag">VS Code</span>
+              </div>
+            </div>
+
+            <div class="skills-group">
+              <h4>Bases de Datos & Otros</h4>
+              <div class="skill-tags">
+                <span class="tag">MySQL</span>
+                <span class="tag">Trabajo en Equipo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Hobbies e Intereses -->
+    <section class="section" id="hobbies">
+      <div class="container">
+        <h2 class="section-title">Hobbies & Actividades de Interés</h2>
+        <p class="section-subtitle">Lo que me apasiona fuera del ámbito académico</p>
+
+        <div class="cards-grid">
+          <!-- Hobby 1 -->
+          <article class="card">
+            <div class="card-icon">💻</div>
+            <h3>Programación & Open Source</h3>
+            <p>
+              <!-- EDITAR AQUÍ -->
+              Me encanta investigar nuevas librerías, arquitecturas y herramientas modernas para mejorar la
+              productividad de desarrollo.
+            </p>
+          </article>
+
+          <!-- Hobby 2 -->
+          <article class="card">
+            <div class="card-icon">🎮</div>
+            <h3>Videojuegos & Estrategia</h3>
+            <p>
+              <!-- EDITAR AQUÍ -->
+              Disfruto de juegos de rol, estrategia y desafíos que demanden pensamiento lógico y resolución de puzzles.
+            </p>
+          </article>
+
+          <!-- Hobby 3 -->
+          <article class="card">
+            <div class="card-icon">📚</div>
+            <h3>Lectura & Aprendizaje</h3>
+            <p>
+              <!-- EDITAR AQUÍ -->
+              Lectura de artículos sobre ciencia, tecnología, avances en inteligencia artificial y novedades del mundo
+              tech.
+            </p>
+          </article>
+
+          <!-- Hobby 4 -->
+          <article class="card">
+            <div class="card-icon">🎵</div>
+            <h3>Música & Podcast</h3>
+            <p>
+              <!-- EDITAR AQUÍ -->
+              Acompaño mis sesiones de estudio y programación con buena música lo-fi, synthwave o podcasts de
+              divulgación tecnológica.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Elementos Multimedia -->
+    <section class="section section-dark" id="multimedia">
+      <div class="container">
+        <h2 class="section-title">Contenido Multimedia</h2>
+        <p class="section-subtitle">Integración de elementos de video, audio e imágenes interactivas</p>
+
+        <div class="multimedia-grid">
+          <!-- Video -->
+          <div class="media-card">
+            <h3>🎥 Video Destacado</h3>
+            <p>Ejemplo de inserción de video para presentaciones o proyectos:</p>
+            <div class="video-container">
+              <!-- EDITAR AQUÍ: Puedes cambiar la URL por un video de tu agrado -->
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0" title="Video de presentación"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Audio / Podcast -->
+          <div class="media-card">
+            <h3>🎧 Audio / Música de Fondo</h3>
+            <p>Reproductor nativo de audio en HTML5:</p>
+            <div class="audio-box">
+              <!-- Audio nativo HTML5 con fallback -->
+              <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+              </audio>
+              <p class="audio-caption">Música de muestra para ambientar el espacio de trabajo.</p>
+            </div>
+
+            <!-- Galería pequeña o Imagen destacada -->
+            <div class="image-gallery-box">
+              <h4>📸 Espacio de Trabajo</h4>
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+                alt="Setup y espacio de programación" class="gallery-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Redes Sociales y Contacto -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <h2 class="section-title">Contacto & Redes Sociales</h2>
+        <p class="section-subtitle">¿Querés ponerte en contacto? Escribime o seguime en mis redes</p>
+
+        <div class="contact-layout">
+          <!-- Redes Sociales y Datos -->
+          <div class="contact-info">
+            <h3>Conectemos</h3>
+            <p>Podes encontrarme activo en las siguientes plataformas o enviarme un mensaje directo:</p>
+
+            <div class="social-links">
+              <!-- EDITAR AQUÍ: Tus enlaces de redes sociales -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn github">
+                <span>🐙 GitHub</span>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+                <span>💼 LinkedIn</span>
+              </a>
+              <a href="mailto:tu-correo@ejemplo.com" class="social-btn email">
+                <span>✉️ Enviar Correo</span>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn twitter">
+                <span>🐦 X / Twitter</span>
+              </a>
+            </div>
+
+            <div class="contact-details">
+              <p><strong>Email:</strong> contacto@ejemplo.com</p>
+              <p><strong>Teléfono / Celular:</strong> +54 9 11 1234-5678</p>
+              <p><strong>Ubicación:</strong> Buenos Aires, Argentina</p>
+            </div>
+          </div>
+
+          <!-- Formulario de Contacto -->
+          <div class="contact-form-wrapper">
+            <h3>Enviar un Mensaje</h3>
+            <form class="contact-form" action="#" method="POST"
+              onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Formulario de prueba.');">
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo del contacto" required>
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 - Sitio Web de Presentación Personal. Cátedra: Arquitectura Web.</p>
+      <a href="#hero" class="back-to-top">↑ Volver arriba</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
